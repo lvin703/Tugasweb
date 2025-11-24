@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f9fa;
+}
+
+nav {
+    font-weight: 500;
+}
+
+section {
+    padding-top: 60px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Project Card Hover Effect */
+.project-card {
+    transition: 0.25s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
